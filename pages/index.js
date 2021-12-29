@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>Ninja List | Home</title>
         <meta name='keyword' content='Homepage'/>
+        <meta name='author' content='Akram Sakib'/>
       </Head>
       <div>
         <h1 className={styles.title}>Homepage</h1>
