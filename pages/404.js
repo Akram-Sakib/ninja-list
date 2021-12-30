@@ -6,11 +6,15 @@ import { useRouter } from "next/router";
 const NotFound = () => {
   
   const router = useRouter();
-  
-  useEffect(() => {
+
+  const rerdirectToHome = () => {
     setTimeout(() => {
       router.push("/");
     }, 5000);
+  }
+  
+  useEffect(() => {
+    rerdirectToHome();
   }, []);
 
   return (
